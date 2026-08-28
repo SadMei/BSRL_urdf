@@ -141,7 +141,7 @@
     <parent link="link_right_thigh" />
     <child link="link_right_shank" />
     <axis xyz="0 1 0" />
-    <limit lower="0" upper="2.2" effort="216" velocity="15.1320" />
+    <limit lower="-0.1" upper="2.2" effort="216" velocity="15.1320" />
   </joint>
   <link name="link_right_ankle_pitch">
     <inertial>
@@ -309,7 +309,7 @@
     <parent link="link_left_thigh" />
     <child link="link_left_shank" />
     <axis xyz="0 1 0" />
-    <limit lower="0" upper="2.2" effort="216" velocity="15.1320" />
+    <limit lower="-0.1" upper="2.2" effort="216" velocity="15.1320" />
   </joint>
   <link name="link_left_ankle_pitch">
     <inertial>
